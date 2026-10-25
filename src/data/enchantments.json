@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 1,
+  "targetVersion": "Java 1.21.1",
+  "coverage": "42 vanilla enchantments; fresh-book transfer model, excludes repairs and renames",
+  "targets": [
+    "helmet",
+    "chestplate",
+    "leggings",
+    "boots",
+    "turtle_helmet",
+    "elytra",
+    "pickaxe",
+    "axe",
+    "shovel",
+    "hoe",
+    "sword",
+    "bow",
+    "crossbow",
+    "trident",
+    "fishing_rod",
+    "mace"
+  ],
+  "enchantments": [
+    {
+      "id": "protection",
+      "name": "Protection",
+      "maxLevel": 4,
+      "appliesTo": [
+        "helmet",
+        "chestplate",
+        "leggings",
+        "boots",
+        "turtle_helmet"
+      ],
+      "itemMultiplier": 1,
+      "bookMultiplier": 1,
+      "excludes": [
+        "fire_protection",
+        "blast_protection",
+        "projectile_protection"
+      ]
+    },
+    {
+      "id": "fire_protection",
+      "name": "Fire Protection",
+      "maxLevel": 4,
+      "appliesTo": [
+        "helmet",
+        "chestplate",
+        "leggings",
+        "boots",
+        "turtle_helmet"
+      ],
+      "itemMultiplier": 2,
+      "bookMultiplier": 1,
+      "excludes": ["protection", "blast_protection", "projectile_protection"]
+    },
+    {
+      "id": "blast_protection",
+      "name": "Blast Protection",
+      "maxLevel": 4,
+      "appliesTo": [
+        "helmet",
+        "chestplate",
+        "leggings",
+        "boots",
+        "turtle_helmet"
+      ],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": ["protection", "fire_protection", "projectile_protection"]
+    },
+    {
+      "id": "projectile_protection",
+      "name": "Projectile Protection",
+      "maxLevel": 4,
+      "appliesTo": [
+        "helmet",
+        "chestplate",
+        "leggings",
+        "boots",
+        "turtle_helmet"
+      ],
+      "itemMultiplier": 2,
+      "bookMultiplier": 1,
+      "excludes": ["protection", "fire_protection", "blast_protection"]
+    },
+    {
+      "id": "feather_falling",
+      "name": "Feather Falling",
+      "maxLevel": 4,
+      "appliesTo": ["boots"],
+      "itemMultiplier": 2,
+      "bookMultiplier": 1,
+      "excludes": []
+    },
+    {
+      "id": "respiration",
+      "name": "Respiration",
+      "maxLevel": 3,
+      "appliesTo": ["helmet", "turtle_helmet"],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": []
+    },
+    {
+      "id": "aqua_affinity",
+      "name": "Aqua Affinity",
+      "maxLevel": 1,
+      "appliesTo": ["helmet", "turtle_helmet"],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": []
+    },
+    {
+      "id": "thorns",
+      "name": "Thorns",
+      "maxLevel": 3,
+      "appliesTo": [
+        "helmet",
+        "chestplate",
+        "leggings",
+        "boots",
+        "turtle_helmet"
+      ],
+      "itemMultiplier": 8,
+      "bookMultiplier": 4,
+      "excludes": []
+    },
+    {
+      "id": "depth_strider",
+      "name": "Depth Strider",
+      "maxLevel": 3,
+      "appliesTo": ["boots"],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": ["frost_walker"]
+    },
+    {
+      "id": "frost_walker",
+      "name": "Frost Walker",
+      "maxLevel": 2,
+      "appliesTo": ["boots"],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": ["depth_strider"]
+    },
+    {
+      "id": "soul_speed",
+      "name": "Soul Speed",
+      "maxLevel": 3,
+      "appliesTo": ["boots"],
+      "itemMultiplier": 8,
+      "bookMultiplier": 4,
+      "excludes": []
+    },
+    {
+      "id": "swift_sneak",
+      "name": "Swift Sneak",
+      "maxLevel": 3,
+      "appliesTo": ["leggings"],
+      "itemMultiplier": 8,
+      "bookMultiplier": 4,
+      "excludes": []
+    },
+    {
+      "id": "sharpness",
+      "name": "Sharpness",
+      "maxLevel": 5,
+      "appliesTo": ["sword", "axe"],
+      "itemMultiplier": 1,
+      "bookMultiplier": 1,
+      "excludes": ["smite", "bane_of_arthropods", "density", "breach"]
+    },
+    {
+      "id": "smite",
+      "name": "Smite",
+      "maxLevel": 5,
+      "appliesTo": ["sword", "axe", "mace"],
+      "itemMultiplier": 2,
+      "bookMultiplier": 1,
+      "excludes": ["sharpness", "bane_of_arthropods", "density", "breach"]
+    },
+    {
+      "id": "bane_of_arthropods",
+      "name": "Bane Of Arthropods",
+      "maxLevel": 5,
+      "appliesTo": ["sword", "axe", "mace"],
+      "itemMultiplier": 2,
+      "bookMultiplier": 1,
+      "excludes": ["sharpness", "smite", "density", "breach"]
+    },
+    {
+      "id": "knockback",
+      "name": "Knockback",
+      "maxLevel": 2,
+      "appliesTo": ["sword"],
+      "itemMultiplier": 2,
+      "bookMultiplier": 1,
+      "excludes": []
+    },
+    {
+      "id": "fire_aspect",
+      "name": "Fire Aspect",
+      "maxLevel": 2,
+      "appliesTo": ["sword", "mace"],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": []
+    },
+    {
+      "id": "looting",
+      "name": "Looting",
+      "maxLevel": 3,
+      "appliesTo": ["sword"],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": []
+    },
+    {
+      "id": "sweeping_edge",
+      "name": "Sweeping Edge",
+      "maxLevel": 3,
+      "appliesTo": ["sword"],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": []
+    },
+    {
+      "id": "efficiency",
+      "name": "Efficiency",
+      "maxLevel": 5,
+      "appliesTo": ["pickaxe", "axe", "shovel", "hoe"],
+      "itemMultiplier": 1,
+      "bookMultiplier": 1,
+      "excludes": []
+    },
+    {
+      "id": "silk_touch",
+      "name": "Silk Touch",
+      "maxLevel": 1,
+      "appliesTo": ["pickaxe", "axe", "shovel", "hoe"],
+      "itemMultiplier": 8,
+      "bookMultiplier": 4,
+      "excludes": ["fortune"]
+    },
+    {
+      "id": "fortune",
+      "name": "Fortune",
+      "maxLevel": 3,
+      "appliesTo": ["pickaxe", "axe", "shovel", "hoe"],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": ["silk_touch"]
+    },
+    {
+      "id": "unbreaking",
+      "name": "Unbreaking",
+      "maxLevel": 3,
+      "appliesTo": [
+        "helmet",
+        "chestplate",
+        "leggings",
+        "boots",
+        "turtle_helmet",
+        "elytra",
+        "pickaxe",
+        "axe",
+        "shovel",
+        "hoe",
+        "sword",
+        "bow",
+        "crossbow",
+        "trident",
+        "fishing_rod",
+        "mace"
+      ],
+      "itemMultiplier": 2,
+      "bookMultiplier": 1,
+      "excludes": []
+    },
+    {
+      "id": "mending",
+      "name": "Mending",
+      "maxLevel": 1,
+      "appliesTo": [
+        "helmet",
+        "chestplate",
+        "leggings",
+        "boots",
+        "turtle_helmet",
+        "elytra",
+        "pickaxe",
+        "axe",
+        "shovel",
+        "hoe",
+        "sword",
+        "bow",
+        "crossbow",
+        "trident",
+        "fishing_rod",
+        "mace"
+      ],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": ["infinity"]
+    },
+    {
+      "id": "vanishing_curse",
+      "name": "Vanishing Curse",
+      "maxLevel": 1,
+      "appliesTo": [
+        "helmet",
+        "chestplate",
+        "leggings",
+        "boots",
+        "turtle_helmet",
+        "elytra",
+        "pickaxe",
+        "axe",
+        "shovel",
+        "hoe",
+        "sword",
+        "bow",
+        "crossbow",
+        "trident",
+        "fishing_rod",
+        "mace"
+      ],
+      "itemMultiplier": 8,
+      "bookMultiplier": 4,
+      "excludes": []
+    },
+    {
+      "id": "binding_curse",
+      "name": "Binding Curse",
+      "maxLevel": 1,
+      "appliesTo": [
+        "helmet",
+        "chestplate",
+        "leggings",
+        "boots",
+        "turtle_helmet",
+        "elytra"
+      ],
+      "itemMultiplier": 8,
+      "bookMultiplier": 4,
+      "excludes": []
+    },
+    {
+      "id": "power",
+      "name": "Power",
+      "maxLevel": 5,
+      "appliesTo": ["bow"],
+      "itemMultiplier": 1,
+      "bookMultiplier": 1,
+      "excludes": []
+    },
+    {
+      "id": "punch",
+      "name": "Punch",
+      "maxLevel": 2,
+      "appliesTo": ["bow"],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": []
+    },
+    {
+      "id": "flame",
+      "name": "Flame",
+      "maxLevel": 1,
+      "appliesTo": ["bow"],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": []
+    },
+    {
+      "id": "infinity",
+      "name": "Infinity",
+      "maxLevel": 1,
+      "appliesTo": ["bow"],
+      "itemMultiplier": 8,
+      "bookMultiplier": 4,
+      "excludes": ["mending"]
+    },
+    {
+      "id": "luck_of_the_sea",
+      "name": "Luck Of The Sea",
+      "maxLevel": 3,
+      "appliesTo": ["fishing_rod"],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": []
+    },
+    {
+      "id": "lure",
+      "name": "Lure",
+      "maxLevel": 3,
+      "appliesTo": ["fishing_rod"],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": []
+    },
+    {
+      "id": "loyalty",
+      "name": "Loyalty",
+      "maxLevel": 3,
+      "appliesTo": ["trident"],
+      "itemMultiplier": 1,
+      "bookMultiplier": 1,
+      "excludes": ["riptide"]
+    },
+    {
+      "id": "impaling",
+      "name": "Impaling",
+      "maxLevel": 5,
+      "appliesTo": ["trident"],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": []
+    },
+    {
+      "id": "riptide",
+      "name": "Riptide",
+      "maxLevel": 3,
+      "appliesTo": ["trident"],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": ["loyalty", "channeling"]
+    },
+    {
+      "id": "channeling",
+      "name": "Channeling",
+      "maxLevel": 1,
+      "appliesTo": ["trident"],
+      "itemMultiplier": 8,
+      "bookMultiplier": 4,
+      "excludes": ["riptide"]
+    },
+    {
+      "id": "multishot",
+      "name": "Multishot",
+      "maxLevel": 1,
+      "appliesTo": ["crossbow"],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": ["piercing"]
+    },
+    {
+      "id": "piercing",
+      "name": "Piercing",
+      "maxLevel": 4,
+      "appliesTo": ["crossbow"],
+      "itemMultiplier": 1,
+      "bookMultiplier": 1,
+      "excludes": ["multishot"]
+    },
+    {
+      "id": "quick_charge",
+      "name": "Quick Charge",
+      "maxLevel": 3,
+      "appliesTo": ["crossbow"],
+      "itemMultiplier": 2,
+      "bookMultiplier": 1,
+      "excludes": []
+    },
+    {
+      "id": "density",
+      "name": "Density",
+      "maxLevel": 5,
+      "appliesTo": ["mace"],
+      "itemMultiplier": 2,
+      "bookMultiplier": 1,
+      "excludes": ["breach", "smite", "bane_of_arthropods"]
+    },
+    {
+      "id": "breach",
+      "name": "Breach",
+      "maxLevel": 4,
+      "appliesTo": ["mace"],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": ["density", "smite", "bane_of_arthropods"]
+    },
+    {
+      "id": "wind_burst",
+      "name": "Wind Burst",
+      "maxLevel": 3,
+      "appliesTo": ["mace"],
+      "itemMultiplier": 4,
+      "bookMultiplier": 2,
+      "excludes": []
+    }
+  ]
+}

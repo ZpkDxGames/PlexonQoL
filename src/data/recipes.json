@@ -1,0 +1,604 @@
+{
+  "schemaVersion": 1,
+  "targetVersion": "Java 1.21.1",
+  "coverage": "Hand-authored starter catalog. Not a complete vanilla or mod catalog. Glyphs are schematic, not Minecraft textures.",
+  "items": [
+    {
+      "id": "minecraft:oak_log",
+      "name": "Oak Log",
+      "symbol": "\u25a5",
+      "color": "#b18c60",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:oak_planks",
+      "name": "Oak Planks",
+      "symbol": "\u25a4",
+      "color": "#caa776",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:stick",
+      "name": "Stick",
+      "symbol": "\u2571",
+      "color": "#ad8557",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:crafting_table",
+      "name": "Crafting Table",
+      "symbol": "\u25a6",
+      "color": "#b48b65",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:cobblestone",
+      "name": "Cobblestone",
+      "symbol": "\u25a9",
+      "color": "#939b9d",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:furnace",
+      "name": "Furnace",
+      "symbol": "\u25a3",
+      "color": "#a9afb1",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:coal",
+      "name": "Coal",
+      "symbol": "\u25c6",
+      "color": "#737d88",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:charcoal",
+      "name": "Charcoal",
+      "symbol": "\u25c6",
+      "color": "#8b817b",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:iron_ore",
+      "name": "Iron Ore",
+      "symbol": "\u25a8",
+      "color": "#bfad9e",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:raw_iron",
+      "name": "Raw Iron",
+      "symbol": "\u25c6",
+      "color": "#d0b5a4",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:iron_ingot",
+      "name": "Iron Ingot",
+      "symbol": "\u25b0",
+      "color": "#c6cdd1",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "name": "Gold Ingot",
+      "symbol": "\u25b0",
+      "color": "#e7c25e",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:diamond",
+      "name": "Diamond",
+      "symbol": "\u25c6",
+      "color": "#74e0d7",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:diamond_pickaxe",
+      "name": "Diamond Pickaxe",
+      "symbol": "\u2692",
+      "color": "#64dfd0",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:diamond_sword",
+      "name": "Diamond Sword",
+      "symbol": "\u2694",
+      "color": "#64dfd0",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:stone",
+      "name": "Stone",
+      "symbol": "\u25a7",
+      "color": "#adb2b4",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:stone_bricks",
+      "name": "Stone Bricks",
+      "symbol": "\u25a4",
+      "color": "#adb2b4",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:smooth_stone",
+      "name": "Smooth Stone",
+      "symbol": "\u25a2",
+      "color": "#c9cbca",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:blast_furnace",
+      "name": "Blast Furnace",
+      "symbol": "\u25a3",
+      "color": "#9ba5ad",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:smoker",
+      "name": "Smoker",
+      "symbol": "\u25a3",
+      "color": "#bba284",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:beef",
+      "name": "Raw Beef",
+      "symbol": "\u25b0",
+      "color": "#b16762",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:cooked_beef",
+      "name": "Steak",
+      "symbol": "\u25b0",
+      "color": "#a27b59",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:netherite_ingot",
+      "name": "Netherite Ingot",
+      "symbol": "\u25b0",
+      "color": "#9e899f",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:netherite_upgrade_smithing_template",
+      "name": "Netherite Upgrade",
+      "symbol": "\u2b1f",
+      "color": "#dc7b75",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:netherite_sword",
+      "name": "Netherite Sword",
+      "symbol": "\u2694",
+      "color": "#9e899f",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:sand",
+      "name": "Sand",
+      "symbol": "\u25a7",
+      "color": "#dbd2a0",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:glass",
+      "name": "Glass",
+      "symbol": "\u25c7",
+      "color": "#a9d5d8",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:water_bottle",
+      "name": "Water Bottle",
+      "symbol": "\u2667",
+      "color": "#80b7e6",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:nether_wart",
+      "name": "Nether Wart",
+      "symbol": "\u2663",
+      "color": "#bc5263",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:awkward_potion",
+      "name": "Awkward Potion",
+      "symbol": "\u2667",
+      "color": "#c4b1d8",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:blaze_powder",
+      "name": "Blaze Powder",
+      "symbol": "\u2726",
+      "color": "#e4a443",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:strength_potion",
+      "name": "Potion of Strength",
+      "symbol": "\u2667",
+      "color": "#be6465",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:iron_block",
+      "name": "Block of Iron",
+      "symbol": "\u25a3",
+      "color": "#d9e0e2",
+      "source": "vanilla"
+    },
+    {
+      "id": "minecraft:anvil",
+      "name": "Anvil",
+      "symbol": "\u25a5",
+      "color": "#92969e",
+      "source": "vanilla"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "minecraft:oak_planks",
+      "station": "shapeless",
+      "ingredients": ["minecraft:oak_log"],
+      "result": {
+        "item": "minecraft:oak_planks",
+        "count": 4
+      }
+    },
+    {
+      "id": "minecraft:stick",
+      "station": "shaped",
+      "ingredients": [
+        "minecraft:oak_planks",
+        null,
+        null,
+        "minecraft:oak_planks",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "item": "minecraft:stick",
+        "count": 4
+      }
+    },
+    {
+      "id": "minecraft:crafting_table",
+      "station": "shaped",
+      "ingredients": [
+        "minecraft:oak_planks",
+        "minecraft:oak_planks",
+        null,
+        "minecraft:oak_planks",
+        "minecraft:oak_planks",
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "item": "minecraft:crafting_table",
+        "count": 1
+      }
+    },
+    {
+      "id": "minecraft:furnace",
+      "station": "shaped",
+      "ingredients": [
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        null,
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone"
+      ],
+      "result": {
+        "item": "minecraft:furnace",
+        "count": 1
+      }
+    },
+    {
+      "id": "minecraft:diamond_pickaxe",
+      "station": "shaped",
+      "ingredients": [
+        "minecraft:diamond",
+        "minecraft:diamond",
+        "minecraft:diamond",
+        null,
+        "minecraft:stick",
+        null,
+        null,
+        "minecraft:stick",
+        null
+      ],
+      "result": {
+        "item": "minecraft:diamond_pickaxe",
+        "count": 1
+      }
+    },
+    {
+      "id": "minecraft:diamond_sword",
+      "station": "shaped",
+      "ingredients": [
+        null,
+        "minecraft:diamond",
+        null,
+        null,
+        "minecraft:diamond",
+        null,
+        null,
+        "minecraft:stick",
+        null
+      ],
+      "result": {
+        "item": "minecraft:diamond_sword",
+        "count": 1
+      }
+    },
+    {
+      "id": "minecraft:iron_ingot_from_raw_iron",
+      "station": "smelting",
+      "ingredients": ["minecraft:raw_iron"],
+      "result": {
+        "item": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "durationSeconds": 10,
+      "experience": 0.7
+    },
+    {
+      "id": "minecraft:iron_ingot_from_ore",
+      "station": "smelting",
+      "ingredients": ["minecraft:iron_ore"],
+      "result": {
+        "item": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "durationSeconds": 10,
+      "experience": 0.7
+    },
+    {
+      "id": "minecraft:iron_ingot_from_blasting",
+      "station": "blasting",
+      "ingredients": ["minecraft:raw_iron"],
+      "result": {
+        "item": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "durationSeconds": 5,
+      "experience": 0.7
+    },
+    {
+      "id": "minecraft:stone",
+      "station": "smelting",
+      "ingredients": ["minecraft:cobblestone"],
+      "result": {
+        "item": "minecraft:stone",
+        "count": 1
+      },
+      "durationSeconds": 10,
+      "experience": 0.1
+    },
+    {
+      "id": "minecraft:smooth_stone",
+      "station": "smelting",
+      "ingredients": ["minecraft:stone"],
+      "result": {
+        "item": "minecraft:smooth_stone",
+        "count": 1
+      },
+      "durationSeconds": 10,
+      "experience": 0.1
+    },
+    {
+      "id": "minecraft:charcoal",
+      "station": "smelting",
+      "ingredients": ["minecraft:oak_log"],
+      "result": {
+        "item": "minecraft:charcoal",
+        "count": 1
+      },
+      "durationSeconds": 10,
+      "experience": 0.15
+    },
+    {
+      "id": "minecraft:glass",
+      "station": "smelting",
+      "ingredients": ["minecraft:sand"],
+      "result": {
+        "item": "minecraft:glass",
+        "count": 1
+      },
+      "durationSeconds": 10,
+      "experience": 0.1
+    },
+    {
+      "id": "minecraft:cooked_beef",
+      "station": "smoking",
+      "ingredients": ["minecraft:beef"],
+      "result": {
+        "item": "minecraft:cooked_beef",
+        "count": 1
+      },
+      "durationSeconds": 5,
+      "experience": 0.35
+    },
+    {
+      "id": "minecraft:blast_furnace",
+      "station": "shaped",
+      "ingredients": [
+        "minecraft:iron_ingot",
+        "minecraft:iron_ingot",
+        "minecraft:iron_ingot",
+        "minecraft:iron_ingot",
+        "minecraft:furnace",
+        "minecraft:iron_ingot",
+        "minecraft:smooth_stone",
+        "minecraft:smooth_stone",
+        "minecraft:smooth_stone"
+      ],
+      "result": {
+        "item": "minecraft:blast_furnace",
+        "count": 1
+      }
+    },
+    {
+      "id": "minecraft:smoker",
+      "station": "shaped",
+      "ingredients": [
+        null,
+        "minecraft:oak_log",
+        null,
+        "minecraft:oak_log",
+        "minecraft:furnace",
+        "minecraft:oak_log",
+        null,
+        "minecraft:oak_log",
+        null
+      ],
+      "result": {
+        "item": "minecraft:smoker",
+        "count": 1
+      }
+    },
+    {
+      "id": "minecraft:stone_bricks",
+      "station": "stonecutting",
+      "ingredients": ["minecraft:stone"],
+      "result": {
+        "item": "minecraft:stone_bricks",
+        "count": 1
+      }
+    },
+    {
+      "id": "minecraft:netherite_sword",
+      "station": "smithing",
+      "ingredients": [
+        "minecraft:netherite_upgrade_smithing_template",
+        "minecraft:diamond_sword",
+        "minecraft:netherite_ingot"
+      ],
+      "result": {
+        "item": "minecraft:netherite_sword",
+        "count": 1
+      }
+    },
+    {
+      "id": "minecraft:awkward_potion",
+      "station": "brewing",
+      "ingredients": ["minecraft:water_bottle", "minecraft:nether_wart"],
+      "result": {
+        "item": "minecraft:awkward_potion",
+        "count": 1
+      },
+      "durationSeconds": 20
+    },
+    {
+      "id": "minecraft:strength_potion",
+      "station": "brewing",
+      "ingredients": ["minecraft:awkward_potion", "minecraft:blaze_powder"],
+      "result": {
+        "item": "minecraft:strength_potion",
+        "count": 1
+      },
+      "durationSeconds": 20
+    },
+    {
+      "id": "minecraft:iron_block",
+      "station": "shaped",
+      "ingredients": [
+        "minecraft:iron_ingot",
+        "minecraft:iron_ingot",
+        "minecraft:iron_ingot",
+        "minecraft:iron_ingot",
+        "minecraft:iron_ingot",
+        "minecraft:iron_ingot",
+        "minecraft:iron_ingot",
+        "minecraft:iron_ingot",
+        "minecraft:iron_ingot"
+      ],
+      "result": {
+        "item": "minecraft:iron_block",
+        "count": 1
+      }
+    },
+    {
+      "id": "minecraft:iron_ingots",
+      "station": "shapeless",
+      "ingredients": ["minecraft:iron_block"],
+      "result": {
+        "item": "minecraft:iron_ingot",
+        "count": 9
+      }
+    },
+    {
+      "id": "minecraft:anvil",
+      "station": "shaped",
+      "ingredients": [
+        "minecraft:iron_block",
+        "minecraft:iron_block",
+        "minecraft:iron_block",
+        null,
+        "minecraft:iron_ingot",
+        null,
+        "minecraft:iron_ingot",
+        "minecraft:iron_ingot",
+        "minecraft:iron_ingot"
+      ],
+      "result": {
+        "item": "minecraft:anvil",
+        "count": 1
+      }
+    }
+  ],
+  "customSources": [
+    {
+      "id": "PlexonTools",
+      "status": "awaiting-verified-export",
+      "items": [],
+      "recipes": []
+    },
+    {
+      "id": "PlexonShops",
+      "status": "awaiting-verified-export",
+      "items": [],
+      "recipes": []
+    },
+    {
+      "id": "PlexonQuests",
+      "status": "awaiting-verified-export",
+      "items": [],
+      "recipes": []
+    },
+    {
+      "id": "PlexonSpawners",
+      "status": "awaiting-verified-export",
+      "items": [],
+      "recipes": []
+    },
+    {
+      "id": "PlexonCrates",
+      "status": "awaiting-verified-export",
+      "items": [],
+      "recipes": []
+    },
+    {
+      "id": "PlexonKeys",
+      "status": "awaiting-verified-export",
+      "items": [],
+      "recipes": []
+    }
+  ]
+}

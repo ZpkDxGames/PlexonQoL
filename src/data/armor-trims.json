@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "targetVersion": "Java 1.21.1",
+  "coverage": "18 templates, 10 materials, 6 full armor bases and turtle helmet",
+  "renderer": "schematic SVG, not vanilla textures",
+  "templates": [
+    {
+      "id": "sentry",
+      "name": "Sentry",
+      "item": "minecraft:sentry_armor_trim_smithing_template",
+      "duplicate": {
+        "diamonds": 7,
+        "template": 1,
+        "baseItem": "minecraft:cobblestone"
+      }
+    },
+    {
+      "id": "dune",
+      "name": "Dune",
+      "item": "minecraft:dune_armor_trim_smithing_template",
+      "duplicate": {
+        "diamonds": 7,
+        "template": 1,
+        "baseItem": "minecraft:sandstone"
+      }
+    },
+    {
+      "id": "coast",
+      "name": "Coast",
+      "item": "minecraft:coast_armor_trim_smithing_template",
+      "duplicate": {
+        "diamonds": 7,
+        "template": 1,
+        "baseItem": "minecraft:cobblestone"
+      }
+    },
+    {
+      "id": "wild",
+      "name": "Wild",
+      "item": "minecraft:wild_armor_trim_smithing_template",
+      "duplicate": {
+        "diamonds": 7,
+        "template": 1,
+        "baseItem": "minecraft:mossy_cobblestone"
+      }
+    },
+    {
+      "id": "ward",
+      "name": "Ward",
+      "item": "minecraft:ward_armor_trim_smithing_template",
+      "duplicate": {
+        "diamonds": 7,
+        "template": 1,
+        "baseItem": "minecraft:cobbled_deepslate"
+      }
+    },
+    {
+      "id": "eye",
+      "name": "Eye",
+      "item": "minecraft:eye_armor_trim_smithing_template",
+      "duplicate": {
+        "diamonds": 7,
+        "template": 1,
+        "baseItem": "minecraft:end_stone"
+      }
+    },
+    {
+      "id": "vex",
+      "name": "Vex",
+      "item": "minecraft:vex_armor_trim_smithing_template",
+      "duplicate": {
+        "diamonds": 7,
+        "template": 1,
+        "baseItem": "minecraft:cobblestone"
+      }
+    },
+    {
+      "id": "tide",
+      "name": "Tide",
+      "item": "minecraft:tide_armor_trim_smithing_template",
+      "duplicate": {
+        "diamonds": 7,
+        "template": 1,
+        "baseItem": "minecraft:prismarine"
+      }
+    },
+    {
+      "id": "snout",
+      "name": "Snout",
+      "item": "minecraft:snout_armor_trim_smithing_template",
+      "duplicate": {
+        "diamonds": 7,
+        "template": 1,
+        "baseItem": "minecraft:blackstone"
+      }
+    },
+    {
+      "id": "rib",
+      "name": "Rib",
+      "item": "minecraft:rib_armor_trim_smithing_template",
+      "duplicate": {
+        "diamonds": 7,
+        "template": 1,
+        "baseItem": "minecraft:netherrack"
+      }
+    },
+    {
+      "id": "spire",
+      "name": "Spire",
+      "item": "minecraft:spire_armor_trim_smithing_template",
+      "duplicate": {
+        "diamonds": 7,
+        "template": 1,
+        "baseItem": "minecraft:purpur_block"
+      }
+    },
+    {
+      "id": "wayfinder",
+      "name": "Wayfinder",
+      "item": "minecraft:wayfinder_armor_trim_smithing_template",
+      "duplicate": {
+        "diamonds": 7,
+        "template": 1,
+        "baseItem": "minecraft:terracotta"
+      }
+    },
+    {
+      "id": "shaper",
+      "name": "Shaper",
+      "item": "minecraft:shaper_armor_trim_smithing_template",
+      "duplicate": {
+        "diamonds": 7,
+        "template": 1,
+        "baseItem": "minecraft:terracotta"
+      }
+    },
+    {
+      "id": "silence",
+      "name": "Silence",
+      "item": "minecraft:silence_armor_trim_smithing_template",
+      "duplicate": {
+        "diamonds": 7,
+        "template": 1,
+        "baseItem": "minecraft:cobbled_deepslate"
+      }
+    },
+    {
+      "id": "raiser",
+      "name": "Raiser",
+      "item": "minecraft:raiser_armor_trim_smithing_template",
+      "duplicate": {
+        "diamonds": 7,
+        "template": 1,
+        "baseItem": "minecraft:terracotta"
+      }
+    },
+    {
+      "id": "host",
+      "name": "Host",
+      "item": "minecraft:host_armor_trim_smithing_template",
+      "duplicate": {
+        "diamonds": 7,
+        "template": 1,
+        "baseItem": "minecraft:terracotta"
+      }
+    },
+    {
+      "id": "flow",
+      "name": "Flow",
+      "item": "minecraft:flow_armor_trim_smithing_template",
+      "duplicate": {
+        "diamonds": 7,
+        "template": 1,
+        "baseItem": "minecraft:breeze_rod"
+      }
+    },
+    {
+      "id": "bolt",
+      "name": "Bolt",
+      "item": "minecraft:bolt_armor_trim_smithing_template",
+      "duplicate": {
+        "diamonds": 7,
+        "template": 1,
+        "baseItem": "minecraft:copper_block"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "id": "amethyst",
+      "name": "Amethyst",
+      "color": "#9A5CC6",
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "color": "#B4684D",
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "id": "diamond",
+      "name": "Diamond",
+      "color": "#6EECD2",
+      "item": "minecraft:diamond"
+    },
+    {
+      "id": "emerald",
+      "name": "Emerald",
+      "color": "#11A036",
+      "item": "minecraft:emerald"
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "color": "#DEB12D",
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "color": "#ECECEC",
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "id": "lapis",
+      "name": "Lapis",
+      "color": "#21497B",
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "id": "netherite",
+      "name": "Netherite",
+      "color": "#625859",
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "id": "quartz",
+      "name": "Quartz",
+      "color": "#E3D4C4",
+      "item": "minecraft:quartz"
+    },
+    {
+      "id": "redstone",
+      "name": "Redstone",
+      "color": "#971607",
+      "item": "minecraft:redstone"
+    }
+  ],
+  "bases": [
+    {
+      "id": "leather",
+      "name": "Leather",
+      "color": "#8d593c",
+      "slots": ["helmet", "chestplate", "leggings", "boots"]
+    },
+    {
+      "id": "chainmail",
+      "name": "Chainmail",
+      "color": "#68747b",
+      "slots": ["helmet", "chestplate", "leggings", "boots"]
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "color": "#bbc2c5",
+      "slots": ["helmet", "chestplate", "leggings", "boots"]
+    },
+    {
+      "id": "golden",
+      "name": "Golden",
+      "color": "#bfa246",
+      "slots": ["helmet", "chestplate", "leggings", "boots"]
+    },
+    {
+      "id": "diamond",
+      "name": "Diamond",
+      "color": "#4ab9b0",
+      "slots": ["helmet", "chestplate", "leggings", "boots"]
+    },
+    {
+      "id": "netherite",
+      "name": "Netherite",
+      "color": "#403a43",
+      "slots": ["helmet", "chestplate", "leggings", "boots"]
+    },
+    {
+      "id": "turtle",
+      "name": "Turtle Shell",
+      "color": "#527c40",
+      "slots": ["helmet"]
+    }
+  ]
+}
