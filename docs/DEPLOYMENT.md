@@ -16,9 +16,11 @@ The repository contains configuration only. Creating a Vercel project or issuing
 - Node.js: 24.x.
 - Install: `npm ci`.
 - Build: `npm run build`.
-- Output: `out/`.
+- Output Directory: `.next` (the Next.js build metadata directory).
 - Production branch: `main`.
 - Required environment variables: none.
+
+Keep `output: "export"` in `next.config.ts`. Next.js writes the deployable static files to `out/`, while the Vercel Next.js adapter reads its build manifests from `.next/`. Setting Vercel's Output Directory to `out` makes that adapter search for `out/routes-manifest.json` and fail with `NEXT_NO_ROUTES_MANIFEST` after an otherwise successful build. The explicit `.next` value in `vercel.json` matches the Next.js build directory and overrides an incorrect project-level Output Directory setting. The adapter detects the completed static export and publishes its assets. For local preview or a generic static file host, continue serving `out/`.
 
 `git.deploymentEnabled` disables every branch via `"**": false` and explicitly enables `main`. The documented Vercel rule is that a matching `true` rule wins. Add a specific preview branch only when a preview is wanted. See [Vercel Git configuration](https://vercel.com/docs/project-configuration/git-configuration).
 

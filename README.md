@@ -59,7 +59,7 @@ The anvil solver minimizes the sum of **level costs** for at most eight distinct
 
 `.github/workflows/verify.yml` runs `npm ci`, lint, typecheck, calculator/data tests, and production build on pull requests and pushes to `main`. Concurrent verification runs for the same ref are canceled.
 
-`vercel.json` configures the static `out/` directory and permits Git deployments only for `main`. Development branches still receive GitHub CI verification. To deliberately enable a preview branch, add an explicit `true` entry for that branch in the deployment map as part of a consolidated milestone.
+`vercel.json` uses the Next.js framework preset with its build metadata directory (`outputDirectory: ".next"`) and permits Git deployments only for `main`. The Vercel adapter reads build metadata from `.next/` and handles the static export; `out/` remains the local static preview directory. Development branches still receive GitHub CI verification. To deliberately enable a preview branch, add an explicit `true` entry for that branch in the deployment map as part of a consolidated milestone.
 
 Create and validate changes locally, then publish **one consolidated commit per milestone**. Do not use the single-file Contents API in a loop. GitHub CI concurrency does not limit Vercel deployments or reset account-level quotas. See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
 
